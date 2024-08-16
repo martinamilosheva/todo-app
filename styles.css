@@ -1,0 +1,73 @@
+body {
+	background-color: rgb(186, 203, 209);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(214, 214, 214);
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(58, 59, 63);
+    margin: 10px 0;
+}
+
+.content {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form > button {
+    border: none;
+    background: none;
+}
+
+form > button > svg {
+    background-color: rgb(214, 214, 214);
+    border-radius: 50%;
+}
+
+form > [type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(58, 59, 63);
+    border-radius: 4px;
+    background-color: rgb(214, 214, 214);
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.todo-list > li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.title {
+    border: none;
+    background: transparent;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 550px;
+    padding: 10px;
+}
+
+
